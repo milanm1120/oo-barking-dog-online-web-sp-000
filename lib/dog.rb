@@ -5,7 +5,7 @@ class Dog
     @this_dogs_name = dog_name
   end
 
-  def name                      #This method is responsible for reproting the name
+  def name                      #This method is responsible for reporting the name
     @this_dogs_name
   end
 
@@ -14,3 +14,9 @@ class Dog
   end
 
 end
+
+lassie = Dog.new
+lassie.name = "Lassie"
+lassie.bark
+
+puts lassie.name
